@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="profile1.jpg">
+<img class="profile-picture" src="profile.jpg">
 
 Hi! I am a Phd candidate from School of Electrical and Computing Engeneering at State University of Campinas (UNICAMP), Brazil.
 
