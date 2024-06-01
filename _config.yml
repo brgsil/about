@@ -1,6 +1,6 @@
 title: BRGSIL
-url: "https://brgsil.com"
-baseurl: "/main"
+url: "https://brgsil.github.io"
+baseurl: "/github.io"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
