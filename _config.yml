@@ -1,4 +1,4 @@
-title: BRGSIL
+title: Bruno Guedes da Silva
 url: "https://brgsil.github.io"
 baseurl: "/about"
 
@@ -18,6 +18,8 @@ sass:
 nav:
  - name: "About"
    link: "/about/"
+ - name: "Blog"
+   link: "/blog/"
  - name: "Animations"
    link: "/animations/"
  - name: "Resume"
