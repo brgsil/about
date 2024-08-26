@@ -16,17 +16,17 @@ Hope you enjoy and get inspired to do some yourself!
 
 ### Sun's Surface
 
-![Sun animation](animations/sun.gif)
+![Sun animation](animations_assets/sun.gif)
 
 ### Scribling
 
-![Scrible](animations/scrible.gif)
+![Scrible](animations_assets/scrible.gif)
 
 ### DNA Synthesis
 
-![DNA](animations/dna.gif)
+![DNA](animations_assets/dna.gif)
 
 
 ### Spark Emission
 
-![Sparkle](animations/sparkle.gif)
+![Sparkle](animations_assets/sparkle.gif)
