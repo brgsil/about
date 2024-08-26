@@ -8,8 +8,8 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/brgsil"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "https://github.com/ankitsultana/researcher"
+footer_text: "Page design template by Ankit Sultana"
 
 sass:
     style: compressed
@@ -18,11 +18,7 @@ sass:
 nav:
  - name: "About"
    link: "/about/"
- - name: "Blog"
-   link: "/blog/"
  - name: "Animations"
    link: "/animations/"
  - name: "Resume"
    link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
