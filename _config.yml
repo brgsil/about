@@ -19,6 +19,6 @@ nav:
  - name: "About"
    link: "/about/"
  - name: "Animations"
-   link: "/animations/"
+   link: "animations"
  - name: "Resume"
    link: "resume.pdf"
