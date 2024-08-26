@@ -1,6 +1,6 @@
 title: Bruno Guedes da Silva
 url: "https://brgsil.github.io"
-baseurl: "/about"
+baseurl: "/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
