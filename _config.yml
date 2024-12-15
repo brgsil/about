@@ -7,9 +7,11 @@ markdown: kramdown
 
 tracking_id: #
 
-footer: yes
-footer_url: "https://github.com/ankitsultana/researcher"
-footer_text: "Page design template by Ankit Sultana"
+footer:
+  - email: b203657@dac.unicamp.br
+    github: brgsil
+    url: "https://github.com/ankitsultana/researcher"
+    text: "Page design template by Ankit Sultana"
 
 sass:
     style: compressed

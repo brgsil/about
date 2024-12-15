@@ -1,3 +1,8 @@
+---
+common-ext-css:
+  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,10 +87,30 @@
             <div class="container content">
         {% endif %}
                 {{ content }}
-                {% if site.footer == true %}
+                {% if site.footer%}
+                    <ul  class="list-inline text-center footer-links">
+                        <li class="list-inline-item">
+                            <a href="mailto:{{ site.footer.email }}" title="Email me">
+                              <span class="fa-stack fa-lg" aria-hidden="true">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                              </span>
+                              <span class="sr-only">Email me</span>
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/{{ site.footer.github }}" title="GitHub">
+                              <span class="fa-stack fa-lg" aria-hidden="true">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                              </span>
+                              <span class="sr-only">GitHub</span>
+                           </a>
+                        </li>
+                    </ul>
                     <hr />
                     <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+                    <a href="{{ site.footer.url }}" style="color: black"><small>{{ site.footer.text }}</small></a>
                     </p>
                 {% endif %}
             </div>
