@@ -8,10 +8,10 @@ markdown: kramdown
 tracking_id: #
 
 footer:
-  - email: b203657@dac.unicamp.br
-    github: brgsil
-    url: "https://github.com/ankitsultana/researcher"
-    text: "Page design template by Ankit Sultana"
+  email: b203657@dac.unicamp.br
+  github: brgsil
+  url: "https://github.com/ankitsultana/researcher"
+  text: "Page design template by Ankit Sultana"
 
 sass:
     style: compressed
