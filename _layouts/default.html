@@ -96,30 +96,30 @@
         </script>
     {% endif %}
 </body>
-<footer>
-                {% if site.footer%}
-                    <ul  class="list-inline text-center footer-links">
-                        <li class="list-inline-item">
-                            <a href="mailto:{{ site.footer.email }}" title="Email me">
-                              <span class="fa-stack fa-lg" aria-hidden="true">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                              </span>
-                              <span class="sr-only">Email me</span>
-                           </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/{{ site.footer.github }}" title="GitHub">
-                              <span class="fa-stack fa-lg" aria-hidden="true">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                              </span>
-                              <span class="sr-only">GitHub</span>
-                           </a>
-                        </li>
-                    </ul>
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer.url }}" style="color: black"><small>{{ site.footer.text }}</small></a>
-                    </p>
-                {% endif %}
+<footer class="footer-bar">
+    {% if site.footer%}
+        <ul  class="list-inline text-center footer-links">
+            <li class="list-inline-item">
+                <a href="mailto:{{ site.footer.email }}" title="Email me">
+                  <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="sr-only">Email me</span>
+               </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://github.com/{{ site.footer.github }}" title="GitHub">
+                  <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="sr-only">GitHub</span>
+               </a>
+            </li>
+        </ul>
+        <p style="text-align: center; margin-bottom: 10px">
+        <a href="{{ site.footer.url }}" style="color: black"><small>{{ site.footer.text }}</small></a>
+        </p>
+    {% endif %}
 </footer>
