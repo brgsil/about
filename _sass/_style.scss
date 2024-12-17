@@ -132,6 +132,12 @@ hr {
     text-align: center;
 }
 
+.list-inline {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
 .list-inline-item {
     float: left;
 }
