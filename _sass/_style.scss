@@ -132,6 +132,7 @@ footer {
     background: #eaeaea;
     padding-top: 20px;
     padding-bottom: 30px;
+}
 
 .text-center {
     text-align: center;
@@ -143,6 +144,8 @@ footer {
 }
 
 .list-inline {
+    padding: 0px;
+    margin: 0px;
     list-style-type: none;
     display: flex;
     justify-content: center;
