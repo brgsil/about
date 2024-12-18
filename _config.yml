@@ -19,7 +19,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "about"
+   link: "/"
  - name: "Animations"
    link: "animations"
  - name: "Resume"
